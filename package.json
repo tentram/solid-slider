@@ -22,22 +22,22 @@
   "types": "dist/index/index.d.ts",
   "exports": {
     ".": {
-      "solid": "./dist/index/index.jsx",
-      "import": "./dist/index/index.module.js",
+      "solid": "./src/index.tsx",
+      "import": "./src/index.tsx",
       "browser": "./dist/index/index.module.js",
       "require": "./dist/index/index.common.js",
       "node": "./dist/index/index.common.js"
     },
     "./plugins/autoplay": {
-      "solid": "./dist/autoplay/autoplay.jsx",
-      "import": "./dist/autoplay/index.module.js",
+      "solid": "./src/plugins/autoplay.tsx",
+      "import": "./src/plugins/autoplay.tsx",
       "browser": "./dist/autoplay/index.module.js",
       "require": "./dist/autoplay/index.common.js",
       "node": "./dist/autoplay/index.common.js"
     },
     "./plugins/adaptiveHeight": {
-      "solid": "./dist/adaptiveHeight/autoplay.jsx",
-      "import": "./dist/adaptiveHeight/index.module.js",
+      "solid": "./src/plugins/adaptiveHeight.tsx",
+      "import": "./src/plugins/adaptiveHeight.tsx",
       "browser": "./dist/adaptiveHeight/index.module.js",
       "require": "./dist/adaptiveHeight/index.common.js",
       "node": "./dist/adaptiveHeight/index.common.js"

@@ -76,7 +76,7 @@ export const createSlider = <
   const destroy = () => slider && slider.destroy();
   const getOptions: Accessor<KeenSliderOptions<O, P, H> | undefined> = (
     overrides = {}
-  // @ts-ignore
+    // @ts-ignore
   ) => ({
     selector: el.childNodes,
     ...opts(),

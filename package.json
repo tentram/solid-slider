@@ -22,28 +22,28 @@
   "types": "dist/index/index.d.ts",
   "exports": {
     ".": {
-      "solid": "./dist/index/index.jsx",
-      "import": "./dist/index/index.module.js",
-      "browser": "./dist/index/index.module.js",
-      "require": "./dist/index/index.common.js",
-      "node": "./dist/index/index.common.js"
+      "solid": "./src/index/index.jsx",
+      "import": "./src/index/index.module.js",
+      "browser": "./src/index/index.module.js",
+      "require": "./src/index/index.common.js",
+      "node": "./src/index/index.common.js"
     },
     "./plugins/autoplay": {
-      "solid": "./dist/autoplay/autoplay.jsx",
-      "import": "./dist/autoplay/index.module.js",
-      "browser": "./dist/autoplay/index.module.js",
-      "require": "./dist/autoplay/index.common.js",
-      "node": "./dist/autoplay/index.common.js"
+      "solid": "./src/autoplay/autoplay.jsx",
+      "import": "./src/autoplay/index.module.js",
+      "browser": "./src/autoplay/index.module.js",
+      "require": "./src/autoplay/index.common.js",
+      "node": "./src/autoplay/index.common.js"
     },
     "./plugins/adaptiveHeight": {
-      "solid": "./dist/adaptiveHeight/autoplay.jsx",
-      "import": "./dist/adaptiveHeight/index.module.js",
-      "browser": "./dist/adaptiveHeight/index.module.js",
-      "require": "./dist/adaptiveHeight/index.common.js",
-      "node": "./dist/adaptiveHeight/index.common.js"
+      "solid": "./src/adaptiveHeight/autoplay.jsx",
+      "import": "./src/adaptiveHeight/index.module.js",
+      "browser": "./src/adaptiveHeight/index.module.js",
+      "require": "./src/adaptiveHeight/index.common.js",
+      "node": "./src/adaptiveHeight/index.common.js"
     },
-    "./slider.css": "./dist/slider.css",
-    "./adaptiveHeight/style.css": "./dist/adaptiveHeight/slider.css"
+    "./slider.css": "./src/slider.css",
+    "./adaptiveHeight/style.css": "./src/adaptiveHeight/slider.css"
   },
   "sideEffects": false,
   "files": [
